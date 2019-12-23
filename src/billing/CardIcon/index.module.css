@@ -1,0 +1,31 @@
+.CardIcon {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: url('./img/card.svg') no-repeat center center transparent;
+  background-size: 100%;
+}
+.Visa.light {
+  background-image: url('./img/Visa-light.svg');
+}
+.Visa.dark {
+  background-image: url('./img/Visa-dark.svg');
+}
+.Mastercard.light {
+  background-image: url('./img/MasterCard-light.svg');
+}
+.Mastercard.dark {
+  background-image: url('./img/MasterCard-dark.svg');
+}
+.AmericanExpress.light {
+  background-image: url('./img/AmericanExpress-light.svg');
+}
+.AmericanExpress.dark {
+  background-image: url('./img/AmericanExpress-dark.svg');
+}
+.Discover.light {
+  background-image: url('./img/Discover-light.svg');
+}
+.Discover.dark {
+  background-image: url('./img/Discover-dark.svg');
+}

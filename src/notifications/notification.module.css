@@ -1,0 +1,20 @@
+.Info {
+  border-left: 0.7rem solid #84e298;
+}
+.Warning {
+  border-left: 0.7rem solid #ff5757;
+}
+.notification {
+  composes: box from 'index.css';
+  composes: marginBottom from 'index.css';
+  padding: 1.2rem 2rem;
+  color: #595959;
+  font-size: 1.3rem;
+}
+.img {
+  width: 1.6rem;
+  margin-top: -0.1rem;
+}
+.message {
+  margin-left: 1rem;
+}

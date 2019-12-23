@@ -1,0 +1,37 @@
+.Button {
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #206bef;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  padding: 1.1rem 5.4rem 0.9rem;
+  border: 1px solid #206bef;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+.Button:hover {
+  opacity: 0.8;
+  color: #fff;
+  text-decoration: none;
+}
+.Button:focus {
+  background-color: transparent;
+  color: #5f90ff;
+  outline: none;
+}
+.Button[disabled]:focus, .Button:disabled:focus, .Button[disabled], .Button:disabled {
+  background-color: #eee;
+  border-color: #eee;
+  color: #fff;
+}
+.Button[disabled]:hover, .Button:disabled:hover {
+  opacity: 1;
+}

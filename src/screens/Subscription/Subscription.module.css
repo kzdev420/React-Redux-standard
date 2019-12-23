@@ -1,0 +1,16 @@
+.linkList {
+  margin-top: 3rem;
+}
+.subscriptionLink {
+  color: #666;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.subscriptionLink:hover {
+  text-decoration: none;
+  color: #333;
+}
+.subscriptionLink img {
+  width: 2rem;
+  margin-right: 1.5rem;
+}

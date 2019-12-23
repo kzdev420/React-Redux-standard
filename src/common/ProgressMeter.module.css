@@ -1,0 +1,22 @@
+.ProgressMeter {
+  height: .8rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  overflow: hidden;
+}
+.progress {
+  height: .8rem;
+}
+.full {
+  height: .8rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+

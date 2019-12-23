@@ -1,0 +1,23 @@
+.Pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PaginationArrow {
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  background: #426086;
+}
+
+.PaginationArrow:hover {
+  color: white;
+  text-decoration: none;
+  background: #24599c;
+}

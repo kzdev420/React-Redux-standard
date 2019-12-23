@@ -1,0 +1,13 @@
+.Box {
+  composes: box from 'index.css';
+  composes: marginBottom from 'index.css';
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .Box {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}

@@ -1,0 +1,16 @@
+.ListItem {
+  cursor: pointer;
+  font-weight: 500;
+  color: #595959;
+}
+.ListItem.hasUsage {
+  padding-bottom: 0.8rem;
+}
+.dataAmount {
+  float: right;
+}
+.mdn {
+  font-weight: 400;
+  margin-left: 1rem;
+  font-size: 1rem;
+}

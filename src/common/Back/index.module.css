@@ -1,0 +1,13 @@
+.Back {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.backImg {
+  width: 2.1rem;
+}
+
+@media (max-width: 767px) {
+  .Back {
+    margin-left: 2rem;
+  }
+}

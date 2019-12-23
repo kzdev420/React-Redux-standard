@@ -1,0 +1,16 @@
+.Box {
+  position: relative;
+  padding-bottom: 5rem;
+}
+.Select {
+  margin-bottom: 1.5rem;
+}
+.BoxHeader {
+  display: flex;
+  align-items: center;
+  color: #777;
+}
+.BoxHeader img {
+  width: 3rem;
+  margin-right: 2rem;
+}

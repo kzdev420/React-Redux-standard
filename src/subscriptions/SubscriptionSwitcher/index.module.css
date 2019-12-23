@@ -1,0 +1,82 @@
+.SubscriptionSwitcher {
+  position: relative;
+  z-index: 100;
+}
+.active {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  position: relative;
+  height: 3.8rem;
+  line-height: 3.8rem;
+  padding-left: 6rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+.toggle {
+  position: absolute;
+  height: 3.8rem;
+  width: 3.8rem;
+  right: 0;
+  top: 0;
+  text-align: center;
+}
+.toggle img {
+  width: 1.5rem;
+}
+.toggle.open img {
+  transform: rotate(180deg);
+  position: relative;
+  top: -0.2rem;
+}
+.avi {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #5f90ff;
+  color: #fff;
+  width: 3.8rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.subList {
+  border-radius: 0.4rem;
+  position: absolute;
+  top: 5rem;
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0 4px 10px 4px rgba(0,0,0, 0.05);
+}
+.listItem {
+  height: 3.8rem;
+  line-height: 3.8rem;
+  display: block;
+  position: relative;
+  color: #999;
+  font-weight: 500;
+  font-size: 1.3rem;
+  padding-left: 6rem;
+}
+.listItem .avi {
+  background-color: #ccc;
+}
+.listItem:hover {
+  text-decoration: none;
+  color: inherit;
+  background-color: #fafafa;
+}
+.listItem:hover .avi {
+  background-color: #5f90ff;
+}
+
+@media (max-width: 767px) {
+  .SubscriptionSwitcher {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}

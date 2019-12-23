@@ -1,0 +1,32 @@
+.PlanIcon {
+  height: 2.8rem;
+  width: 2.8rem;
+  display: inline-block;
+  background-color: #5f90ff;
+  border-radius: 0.3rem;
+  vertical-align: middle;
+  margin: -0.5rem 1rem -0.5rem -1.5rem;
+}
+
+.perGB {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 106%;
+  width: 100%;
+  justify-content: center;
+}
+
+.unlimitedPlan {
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+
+.fixedPlan {
+  height: 90%;
+  margin-left: 50%;
+  margin-top: 5%;
+  transform: translateX(-50%);
+}

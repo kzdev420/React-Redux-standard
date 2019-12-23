@@ -1,0 +1,14 @@
+.wrap {
+  color: #777;
+}
+.header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #206bef;
+  margin-bottom: 1.2rem;
+}
+.info {
+  font-size: 1.2rem;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.8rem;
+}

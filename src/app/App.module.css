@@ -1,0 +1,14 @@
+.App {
+  padding-bottom: 10rem;
+}
+.container {
+  margin: 12rem auto 0;
+  width: 75rem;
+}
+
+@media (max-width: 767px) {
+  .container {
+    margin-top: 7.6rem;
+    width: 100%;
+  }
+}
